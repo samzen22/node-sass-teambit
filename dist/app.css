@@ -1,4 +1,62 @@
-p {
-  color: pink;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-google {
+  color: red;
+  margin-right: 5px;
+}
+
+nav {
+  color: #5f4835;
+  border-bottom: 1px solid #5f4835;
+}
+
+nav.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+nav .logo img {
+  margin-right: 5px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav li .btn {
+  background-color: #2e4993;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 

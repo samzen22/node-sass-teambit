@@ -1,3 +1,29 @@
-p {
-  color: $color_primary
+// reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+// container
+.container {
+  @include wrapper_80;
+}
+
+//list
+ul {
+  list-style-type: none;
+}
+
+// link
+a {
+  text-decoration: none;
+}
+
+
+// icon google
+.fa-google {
+  color: red;
+  margin-right: 5px;
 }

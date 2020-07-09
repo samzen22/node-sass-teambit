@@ -1,0 +1,22 @@
+// wrapper container
+@mixin wrapper_80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+// flex
+@mixin d_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+// button
+@mixin btn_general {
+  background-color: $color_secondary;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
