@@ -1,12 +1,9 @@
 nav {
 
+  @include d_flex;
+  padding: $padding_10px;
   color: $color_text_primary;
   border-bottom: 1px solid $color_text_primary;
-
-  &.d-flex {
-    @include d_flex;
-    padding: $padding_10px;
-  }
 
   .logo {
     @include d_flex;
@@ -22,10 +19,6 @@ nav {
     padding: 0 5px;
     font-weight: $text_bold;
     cursor: pointer;
-
-    .btn {
-      @include btn_general;
-    }
 
   }
 }

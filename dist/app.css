@@ -15,23 +15,37 @@ ul {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
-.fa-google {
-  color: red;
+img {
+  width: 100%;
+}
+
+.icon {
+  color: #fee7d1;
   margin-right: 5px;
 }
 
-nav {
-  color: #5f4835;
-  border-bottom: 1px solid #5f4835;
+.text-medium {
+  font-size: 20px;
 }
 
-nav.d-flex {
+.btn {
+  background-color: #2e4993;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
+  color: #5f4835;
+  border-bottom: 1px solid #5f4835;
 }
 
 nav .logo {
@@ -52,11 +66,31 @@ nav li {
   cursor: pointer;
 }
 
-nav li .btn {
-  background-color: #2e4993;
-  color: white;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5f4835;
+  padding: 30px 0;
+}
+
+.jumbotron .text-jumbo {
+  flex-basis: 45%;
+}
+
+.jumbotron .text-jumbo h1 {
+  font-size: 50px;
+}
+
+.jumbotron .text-jumbo p {
+  margin-top: 15px;
+}
+
+.jumbotron .text-jumbo > * {
+  margin-bottom: 25px;
+}
+
+.jumbotron .img-jumbo {
+  flex-basis: 55%;
 }
 

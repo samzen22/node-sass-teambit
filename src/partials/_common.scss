@@ -19,11 +19,26 @@ ul {
 // link
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
+// img
+img {
+  width: 100%;
+}
 
 // icon google
-.fa-google {
-  color: red;
+.icon {
+  color: $color_primary;
   margin-right: 5px;
+}
+
+// text
+.text-medium {
+  font-size: $text_medium;
+}
+
+//btn
+.btn {
+  @include btn_general;
 }

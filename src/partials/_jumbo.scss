@@ -1,0 +1,25 @@
+.jumbotron {
+  @include d_flex;
+  color: $color_text_primary;
+  padding: $padding_section;
+
+  .text-jumbo {
+    flex-basis: 45%;
+
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      margin-top: 15px;
+    }
+  }
+
+  .text-jumbo > * {
+    margin-bottom: $margin_bottom_25px;
+  }
+
+  .img-jumbo {
+    flex-basis: 55%;
+  }
+}
