@@ -18,8 +18,10 @@ a {
   cursor: pointer;
 }
 
-img {
-  width: 100%;
+.hr-close {
+  width: 80%;
+  margin: 100px auto 0px;
+  border: 1px solid #5f4835;
 }
 
 .icon {
@@ -92,5 +94,39 @@ nav li {
 
 .jumbotron .img-jumbo {
   flex-basis: 55%;
+}
+
+.jumbotron .img-jumbo img {
+  width: 100%;
+}
+
+.section {
+  background-color: #fee7d1;
+  color: #5f4835;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.section .section-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin: 25px auto;
+  padding: 10px 0;
+}
+
+.section .section-img .single-item img {
+  height: 140px;
+  margin-bottom: 25px;
+}
+
+.section .center-img {
+  width: 30%;
+  padding: 30px 0;
+}
+
+.section .center-img + h2 {
+  margin-top: 50px;
 }
 

@@ -1,0 +1,30 @@
+// main
+
+//section
+.section {
+  background-color: $color_primary;
+  color: $color_text_primary;
+  padding: $padding_section;
+  text-align: $text_center;
+
+  .section-img {
+    @include d_flex;
+    width: 65%;
+    margin: 25px auto;
+    padding: $padding_10px;
+
+    .single-item img {
+      height: 140px;
+      margin-bottom: $margin_bottom_25px
+    }
+  }
+
+  .center-img {
+    width: 30%;
+    padding: $padding_section;
+
+    + h2 {
+      margin-top: 50px;
+    }
+  }
+}

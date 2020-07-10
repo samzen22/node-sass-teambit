@@ -22,9 +22,11 @@ a {
   cursor: pointer;
 }
 
-// img
-img {
-  width: 100%;
+// hr
+.hr-close {
+  width: 80%;
+  margin: 100px auto 0px;
+  border: 1px solid $color_text_primary;
 }
 
 // icon google

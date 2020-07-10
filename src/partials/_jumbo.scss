@@ -21,5 +21,8 @@
 
   .img-jumbo {
     flex-basis: 55%;
+    img {
+      width: 100%;
+    }
   }
 }
