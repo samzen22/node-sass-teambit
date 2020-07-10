@@ -130,3 +130,51 @@ nav li {
   margin-top: 50px;
 }
 
+.section-2-item {
+  display: flex;
+  margin-top: 100px;
+}
+
+.section-2-item img {
+  width: 50%;
+}
+
+.section-2-item .text-item {
+  width: 20%;
+  color: #5f4835;
+}
+
+.section-2-item .text-item h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.section-2-item .text-item p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.section-2-item .text-item a {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.section-2-item.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.img-box {
+  position: relative;
+}
+
+.img-box .section-2-img {
+  width: 20%;
+  position: absolute;
+  top: -135px;
+  left: 50%;
+}
+
+.img-box .section-2-img.row-reverse {
+  left: 30%;
+}
+

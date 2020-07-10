@@ -28,3 +28,49 @@
     }
   }
 }
+
+.section-2-item {
+  display: flex;
+  margin-top: 100px;
+
+  img {
+      width: 50%;
+  }
+
+  .text-item {
+    width: 20%;
+    color: $color_text_primary;
+
+    h2 {
+      font-size: 35px;
+      margin-bottom: $margin_bottom_25px;
+    }
+    p {
+      font-size: $text_medium;
+      margin-bottom: $margin_bottom_25px;
+    }
+    a {
+      font-size: $text_medium;
+      margin-bottom: $margin_bottom_25px;
+    }
+  }
+
+  &.row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.img-box {
+  position: relative;
+
+  .section-2-img {
+    width: 20%;
+    position: absolute;
+    top: -135px;
+    left: 50%;
+
+    &.row-reverse {
+      left: 30%;
+    }
+  }
+}
