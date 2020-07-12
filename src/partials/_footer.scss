@@ -1,0 +1,39 @@
+footer {
+  @include wrapper_80;
+  color: $color_text_primary;
+
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    padding: $padding_section;
+
+    .info-teambit {
+      display: flex;
+      align-items: flex-start;
+      font-size: $text_medium;
+      font-weight: $text_bold;
+      width: 25%;
+      margin-right: 40px;
+
+      p {
+        margin-left: 10px;
+      }
+    }
+
+    .list-footer {
+      width: 15%;
+      font-weight: $text_bold;
+
+      h4 {
+        font-size: 25px;
+        margin-bottom: $margin_bottom_25px;
+      }
+
+      .ul-list {
+        li {
+          margin: 15px 0;
+        }
+      }
+    }
+  }
+}

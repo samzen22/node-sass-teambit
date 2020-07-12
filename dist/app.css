@@ -33,6 +33,10 @@ a {
   font-size: 20px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .btn {
   background-color: #2e4993;
   color: white;
@@ -176,5 +180,89 @@ nav li {
 
 .img-box .section-2-img.row-reverse {
   left: 30%;
+  top: -180px;
+}
+
+.section-3 {
+  background-color: #fee7d1;
+  color: #5f4835;
+  padding: 30px 0;
+  margin-top: 150px;
+}
+
+.section-3 .box-section {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.section-3 .box-section h2 {
+  font-size: 38px;
+}
+
+.section-3 .box-section .text-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #2e4993;
+  border-radius: 10px;
+  margin: 25px 0;
+  font-size: 20px;
+}
+
+.section-3 .box-section .text-box .img-section-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.section-3 .box-section .text-box .img-section-3 img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.section-3 .box-section .text-box .img-section-3 h5 {
+  color: #2e4993;
+}
+
+.section-3 .box-section .text-box .img-section-3 h5 p {
+  color: #5f4835;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  color: #5f4835;
+}
+
+footer .footer-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+footer .footer-box .info-teambit {
+  display: flex;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+  width: 25%;
+  margin-right: 40px;
+}
+
+footer .footer-box .info-teambit p {
+  margin-left: 10px;
+}
+
+footer .footer-box .list-footer {
+  width: 15%;
+  font-weight: bold;
+}
+
+footer .footer-box .list-footer h4 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+footer .footer-box .list-footer .ul-list li {
+  margin: 15px 0;
 }
 
